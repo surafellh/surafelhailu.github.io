@@ -1,0 +1,112 @@
+
+/*<style type ="text/css">*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+   /* background-color: rgb(156, 156, 151); */
+   padding : 50px;
+    background-image : url(img1.jpg); 
+    background-size:cover;
+}
+header{
+    color: green;
+    font-family:serif;
+    font-style: bold;
+    font-style: initial;
+   font-size : 20px;
+   padding-top : 100px;
+    padding-left: 100px;
+    padding-right: 200px;
+    margin-top: 30px;
+    /* background-image : url(pic1.jpg); */
+
+}
+h1{
+    color: green;
+    font-family:serif;
+    font-style: bold;
+    font-style: initial;
+   font-size : 40px;
+   border:1px;
+   
+   background-color: aqua;
+   background-blend-mode: lighten;
+    text-align : center;
+
+}
+div
+{
+    color:palegreen;
+    font-family: serif;
+    font-size: 20px;
+    padding: 150px;
+
+}
+ul{
+    float:right ;
+    list-style-type: none;
+    margin-top: 25px;
+      
+   
+
+}
+ul li{
+    display:inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(177, 171, 171);
+    padding: 10px 20px;
+    border: 1px solid rgb(239, 243, 180); 
+    transition: 0.6s ease;
+    background-color:lightblue;
+    margin-top: 25px;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+
+
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title h1{
+    color: rgb(90, 163, 192);
+    font-size: 55px; 
+}
+
+.button{
+    position: absolute;
+    bottom:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid rgb(5, 30, 77);
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease; 
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}

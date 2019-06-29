@@ -1,0 +1,77 @@
+/* <style type="text/css">  */
+
+body {
+    text-align: center;
+    background-image: Ando-Worth;
+    padding: 80px;
+    padding-top: 10px;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgba(175, 155, 130, 0.767);
+    color: rgb(236, 227, 96);
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(252, 209, 116);
+    background-color: brown;
+}
+.svgClass {
+    background-color:rgb(184, 182, 185);
+    float:left;
+    width:70%;
+    color:#fff;
+    padding:10px;
+    box-sizing:border-box;
+}
+polygon{
+    fill:white; transition: 1s fill;
+}
+polygon:hover {
+    fill: rgb(84, 117, 207);
+    stroke:blue;
+   
+     
+}
+.lideta { stroke:rgb(250, 250, 239);stroke-width: 2px;stroke-dasharray: 3; fill:rgb(93, 178, 248); fill-opacity: 50%;}
+.kirkos{stroke:greenyellow;stroke-width: 2px;stroke-dasharray: 3; fill:rgb(245, 229, 185); fill-opacity: 10%;}
+.nifassilk{stroke:goldenrod;stroke-width: 2px;stroke-dasharray: 3; fill: rgb(217, 181, 241); fill-opacity: 50%;}
+.akakikaliti {stroke:olive;stroke-width: 2px;stroke-dasharray: 3; fill:rgb(207, 197, 247); fill-opacity: 10%;}
+.yeka{stroke:lawngreen;stroke-width: 2px;stroke-dasharray: 3;fill:gainsboro; fill-opacity: 10%;}
+.bole{stroke:green;stroke-width: 2px;stroke-dasharray: 3; fill:rgb(240, 245, 216); fill-opacity: 10%;}
+.kolfekeraniyo{stroke: khaki;stroke-width: 2px;stroke-dasharray: 3; fill: rgb(75, 74, 75); fill-opacity: 50%;}
+.addisketema{stroke:palegoldenrod;stroke-width: 2px;stroke-dasharray: 3; fill:rgb(194, 179, 179);fill-opacity: 50%;}
+.arada{stroke:peru;stroke-width: 2px;stroke-dasharray: 3; fill:rgb(96, 248, 202); fill-opacity: 50%;}
+.gulele{stroke:orange;stroke-width: 2px; stroke-dasharray: 3; fill:rgb(194, 214, 193); fill-opacity: 50%;}
+
+.removed{
+display: none;
+}
+.button{
+
+    position: relative;
+    color: rgb(95, 94, 94);
+    font-size: 20px;
+    background:rgb(152, 231, 236);
+    border:none;
+    outline: none;
+    left: 0%;
+    width: 260px;
+    text-align: left;
+}
+.button.hover{
+    fill: rgb(238, 180, 147);
+}
+#sidebar{
+    text-align: left;
+    float:right;
+    width:30%;
+    background:none;
+    color:rgb(250, 249, 169);
+    padding:0px;
+    box-sizing:border-box;
+}
+
+
+
